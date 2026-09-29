@@ -221,7 +221,7 @@ forme d’un **Cloud Run Job**, il est déclenché toutes les trente minutes pen
 matinale.
 
 <p align="center">
-  <img src="assets/gandalf-final.png" alt="Architecture finale anonymisée de Gandalf" width="720" />
+  <img src="assets/gandalf-final.png" alt="Architecture finale anonymisée de Gandalf" width="820" />
 </p>
 
 Le traitement final :
@@ -252,7 +252,7 @@ s’appuie sur **VIES**, puis historise dans BigQuery le statut, la date et les 
 retournées. Un dashboard restitue ensuite ces résultats sans rappeler l’API.
 
 <p align="center">
-  <img src="assets/tva_process.png" alt="Processus de contrôle automatisé des numéros de TVA" width="700" />
+  <img src="assets/tva_process.png" alt="Processus de contrôle automatisé des numéros de TVA" width="800" />
   <br/>
   <sub>La dernière étape représente la cible fonctionnelle : le script d’e-mail avait été préparé, mais n’était ni intégré ni activé à la fin du stage.</sub>
 </p>
