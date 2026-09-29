@@ -94,7 +94,7 @@ les traitements à mobiliser.
 ### Architecture
 
 <p align="center">
-  <img src="assets/reflex-architecture.png" alt="Vue d’ensemble du fonctionnement de REFLEX" width="820" />
+  <img src="assets/reflex-architecture.png" alt="Vue d’ensemble du fonctionnement de REFLEX" width="720" />
 </p>
 
 Un routeur construit un plan d’exécution à partir de la question et du contexte. Un
@@ -106,7 +106,7 @@ les sources réellement utilisés.
   <summary><strong>Voir le traitement interne d’une requête</strong></summary>
   <br/>
   <p align="center">
-    <img src="assets/reflex-request-flow.png" alt="Traitement interne d’une requête par REFLEX" width="820" />
+    <img src="assets/reflex-request-flow.png" alt="Traitement interne d’une requête par REFLEX" width="720" />
   </p>
 </details>
 
@@ -117,7 +117,7 @@ mauvaise colonne. Une règle déterministe a bloqué cette requête avant son ex
 une nouvelle génération, puis validé la version corrigée.
 
 <p align="center">
-  <img src="assets/reflex-text-to-sql-example.png" alt="Réponse Text-to-SQL anonymisée de REFLEX" width="760" />
+  <img src="assets/reflex-text-to-sql-example.png" alt="Réponse Text-to-SQL anonymisée de REFLEX" width="660" />
 </p>
 
 Ce cas combine compréhension métier, génération SQL, garde-fous déterministes, exécution en
@@ -152,7 +152,7 @@ contrôler les données concernées, détecter et localiser l’anomalie, prése
 vérifiables, puis recommander une action corrective à l’utilisateur.
 
 <p align="center">
-  <img src="assets/sap-rejection-diagnostic.png" alt="Pipeline de diagnostic des rejets SAP" width="820" />
+  <img src="assets/sap-rejection-diagnostic.png" alt="Pipeline de diagnostic des rejets SAP" width="720" />
 </p>
 
 ### Données et approche
@@ -167,7 +167,7 @@ de mots discriminants. Ces caractéristiques, complétées par l’identifiant t
 alimentent une régression logistique chargée d’estimer la cause et un niveau de confiance.
 
 <p align="center">
-  <img src="assets/tfidf-terms.png" alt="Termes TF-IDF associés aux principales causes" width="720" />
+  <img src="assets/tfidf-terms.png" alt="Termes TF-IDF associés aux principales causes" width="620" />
   <br/>
   <sub>Les coefficients proviennent du modèle évalué ; seuls certains libellés métier internes ont été généralisés pour la publication.</sub>
 </p>
@@ -183,7 +183,7 @@ alimentent une régression logistique chargée d’estimer la cause et un niveau
   <summary><strong>Voir la synthèse graphique de la validation croisée</strong></summary>
   <br/>
   <p align="center">
-    <img src="assets/cross-validation-results.png" alt="Résultats de validation croisée" width="620" />
+    <img src="assets/cross-validation-results.png" alt="Résultats de validation croisée" width="520" />
   </p>
 </details>
 
@@ -221,7 +221,7 @@ forme d’un **Cloud Run Job**, il est déclenché toutes les trente minutes pen
 matinale.
 
 <p align="center">
-  <img src="assets/gandalf-final.png" alt="Architecture finale anonymisée de Gandalf" width="820" />
+  <img src="assets/gandalf-final.png" alt="Architecture finale anonymisée de Gandalf" width="720" />
 </p>
 
 Le traitement final :
@@ -252,7 +252,7 @@ s’appuie sur **VIES**, puis historise dans BigQuery le statut, la date et les 
 retournées. Un dashboard restitue ensuite ces résultats sans rappeler l’API.
 
 <p align="center">
-  <img src="assets/tva_process.png" alt="Processus de contrôle automatisé des numéros de TVA" width="800" />
+  <img src="assets/tva_process.png" alt="Processus de contrôle automatisé des numéros de TVA" width="700" />
   <br/>
   <sub>La dernière étape représente la cible fonctionnelle : le script d’e-mail avait été préparé, mais n’était ni intégré ni activé à la fin du stage.</sub>
 </p>
